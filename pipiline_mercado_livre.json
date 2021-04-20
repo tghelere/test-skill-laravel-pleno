@@ -1,0 +1,23 @@
+[
+  {
+    'ml_uuid': '87778', 
+    'ml_name': 'Loja do Marcos',
+    'ml_description': 'Loja do Marcos com atacado e varejo',
+  },
+  {
+    'ml_uuid': '87779', 
+    'ml_name': 'Loja do Silvio',
+    'ml_description': 'Loja do Silvio com atacado e varejo',
+  }
+  {
+    'ml_uuid': '87780', 
+    'ml_name': 'Loja do Avila',
+    'ml_description': 'Loja do Vinicius com atacado e varejo',
+  }
+  {
+    'ml_uuid': '87781', 
+    'ml_name': 'Loja do Vinicius',
+    'ml_description': 'Loja do Vinicius com atacado e varejo',
+  }
+ 
+]
