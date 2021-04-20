@@ -1,4 +1,4 @@
-## :rocket: Teste técnico para Desenvolvedor(a) Back-end Junior na Ensinio
+## :rocket: Teste técnico para Desenvolvedor(a) Back-end Pleno na Ensinio
 
 Este teste foi planejado para validar os conhecimentos necessários para a posição de Desenvolvedor(a) Back-end Pleno na Ensinio.
 
