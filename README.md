@@ -13,6 +13,7 @@ Esperamos também que você se divirta e aprenda algo no processo. :blush:
 - Desenvolver um CRUD de clientes, lojas e produtos que utilize as funcionalidades do **Laravel** descritas abaixo.
 - O cenário das lojas recebem informações de três respostas diferentes de Apis via pipiline (Pipilines simulados nos arquivos Json), para solucionar o problema e armazenar as informações da loja em um só dado é necessário abstrair os dados antes da entrada no banco de dados.
 
+### Modelo do banco de dados das Lojas
 Coluna    | Valor  | Descrição
 --------- | ------ | ------------------
 id | BIGINT UNSIGNED NOT NULL AUTO_INCREMENT | Id único da Loja
