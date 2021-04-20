@@ -17,8 +17,8 @@ Coluna    | Valor  | Descrição
 --------- | ------ | ------------------
 id | BIGINT UNSIGNED NOT NULL AUTO_INCREMENT | Id único da Loja
 name | VARCHAR(255) NOT NUL | Nome da loja
-slug | VARCHAR(255) NOT NULL /*UNIQUE INDEX `lojas` (`slug`)*/ | Nome da loja
-driver | VARCHAR(255) NOT NULL /*UNIQUE INDEX `lojas` (`driver`)*/ | Driver que irá receber as informações do pipiline
+slug | VARCHAR(255) NOT NULL | Nome da loja - `UNIQUE INDEX `lojas` (`slug`)`
+driver | VARCHAR(255) NOT NULL | Driver que irá receber as informações do pipiline - `UNIQUE INDEX `lojas` (`driver`)`
 driver_meta | JSON NULL DEFAULT NULL | Informações salva do Driver
 created_at | TIMESTAMP NULL DEFAULT NULL | Data de criação da loja
 updated_at | TIMESTAMP NULL DEFAULT NULL | Data de atualização da loja
