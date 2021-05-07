@@ -10,9 +10,9 @@ Esperamos também que você se divirta e aprenda algo no processo. :blush:
 
 ## :bulb: A proposta
 
-Você deve codificar, utilizando utilizando PHP + Laravel, um CRUD de clientes e produtos de acordo com o modelo conceitual de banco de dados abaixo:
+Você deve codificar, utilizando utilizando PHP + Laravel, um CRUD de lojas, clientes e produtos, de acordo com o modelo conceitual de banco de dados abaixo (o diagrama abaixo não inclui o modelo das lojas):
 
-![Modelo Conceitual](junior-database.png)
+![Modelo Conceitual](database.png)
 
 Utilize o [_Laravel Breeze_](https://laravel.com/docs/8.x/starter-kits#laravel-breeze) e [_Inertia.js_](https://laravel.com/docs/8.x/starter-kits#breeze-and-inertia).
 
