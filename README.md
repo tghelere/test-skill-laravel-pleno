@@ -8,12 +8,22 @@ Serão avaliados aspectos relacionados aos conhecimentos em boas práticas de de
 
 Esperamos também que você se divirta e aprenda algo no processo. :blush:
 
-## :eyes: O problema
+## :bulb: A proposta
 
-- Desenvolver um CRUD de clientes, lojas e produtos que utilize as funcionalidades do **Laravel** descritas abaixo.
-- O cenário das lojas deve receber informações de três respostas diferentes de APIs via pipeline (pipelines simulados nos arquivos .json presentes neste repositório) e, para solucionar o problema e armazenar as informações da loja em um só dado, é necessário abstrair os dados antes da entrada no banco de dados.
+Você deve codificar, utilizando utilizando PHP + Laravel, um CRUD de clientes e produtos de acordo com o modelo conceitual de banco de dados abaixo:
 
-### Modelo do banco de dados das lojas
+![Modelo Conceitual](junior-database.png)
+
+Utilize o [_Laravel Breeze_](https://laravel.com/docs/8.x/starter-kits#laravel-breeze) e [_Inertia.js_](https://laravel.com/docs/8.x/starter-kits#breeze-and-inertia).
+
+Para a autenticação dos clientes na API, utilize o [_Laravel Sanctum_](https://laravel.com/docs/8.x/sanctum).
+
+Documente a API utilizando alguma ferramenta integrada como o [Swagger](https://swagger.io) ou congêneres.
+
+Abstrair a camada das lojas em diferentes drivers, explorando ao máximo as ferramentas do laravel para maximizar o desacoplamento das partes.
+
+As lojas devem receber informações de três respostas diferentes de APIs via pipeline (pipelines simulados nos arquivos .json presentes neste repositório) e, para isso, é necessário armazenar as informações das lojas externas por meio de um contrato e abstrair conforme o modelo de tabela abaixo:
+
 Coluna    | Valor  | Descrição
 --------- | ------ | ------------------
 id | BIGINT UNSIGNED NOT NULL AUTO_INCREMENT | Id único da Loja
@@ -24,27 +34,21 @@ driver_meta | JSON NULL DEFAULT NULL | Informações salvas do driver
 created_at | TIMESTAMP NULL DEFAULT NULL | Data de criação da loja
 updated_at | TIMESTAMP NULL DEFAULT NULL | Data de atualização da loja
 
-## :bulb: A proposta
-
-Você deve codificar o projeto utilizando utilizando PHP Laravel. :smiley:
-
-- Utilizar o _Laravel Breeze_ com _Inertia.js_ e enviar tudo configurado, login, reset de senha e as demais features do Laravel Breeze;
-- Criar a API utilizando o _Laravel Sanctum_ e documentar com alguma ferramenta integrada;
-- Abstrair a camada das lojas em diferentes drivers, explorando ao máximo as ferramentas do laravel para maximizar o desacoplamento das partes.
-
 Por fim, forneça uma documentação, por meio de um arquivo "documentation.md", acerca do seu projeto. Inclua instruções completas para a execução da aplicação, e comentários que julgar pertinentes à avaliação.
 
 ## :dart: Requisitos do projeto
 
-- O código deve seguir o padrão PSR adotado no PHP + Laravel;
 - Organização do código;
+- O código deve seguir o padrão PSR2;
 - Criar seeders com factory do Laravel para popular o banco de dados;
 - Fornecer uma documentação, incluindo instruções para a execução da sua aplicação.
+- Aplicar cache;
+- Escrever um ou mais testes :)
 
 ## :clap: Diferenciais
 
-- Aplicar cache;
-- Escrever um ou mais testes :)
+- Utilizar mais uma camada entre o Modelo e o Controlador;
+- Usar broadcasting para atualizar via realtime quando um pipeline for sincronizado;
 
 ## :page_facing_up: Critérios de avaliação
 
@@ -55,13 +59,6 @@ Por fim, forneça uma documentação, por meio de um arquivo "documentation.md",
 
 ## :email: Sobre a entrega
 
-O teste tem até 7 dias para ser entregue a partir do recebimento das instruções.
-
-Siga os passos abaixo:
-
-- Clone este repositório;
-- Crie uma branch com seu nome (no formato “nome-sobrenome”);
-- Envie sua branch para este repositório em forma de PR;
-- Envie o link da PR respondendo à **mesma conversa de email onde enviamos o link do desafio**.
+Pedimos que, por gentileza, entregue o teste em até 7 dias a partir do recebimento das instruções, respondendo à **mesma conversa de email onde enviamos o link do desafio** e incluindo o link de um **repositório privado** no GitHub. Neste repositório, **adicione como colaborador o usuário [@socramjunio2](https://github.com/socramjunio2)** (socramjunio@gmail.com).
 
 Se por motivos de força maior não for possível cumprir com o prazo, por gentileza, nos informe respondendo à mesma conversa de email onde enviamos o link do desafio.
