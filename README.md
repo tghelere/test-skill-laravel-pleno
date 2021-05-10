@@ -16,7 +16,7 @@ Você deve codificar, utilizando utilizando PHP + Laravel, um CRUD de lojas, cli
 
 Utilize o [_Laravel Breeze_](https://laravel.com/docs/8.x/starter-kits#laravel-breeze) e [_Inertia.js_](https://laravel.com/docs/8.x/starter-kits#breeze-and-inertia).
 
-Para a autenticação dos clientes na API, utilize o [_Laravel Sanctum_](https://laravel.com/docs/8.x/sanctum).
+Para consumir a api, desenvolva a autenticação com Laravel Sanctum. Não é necessário criar o frontend para o cliente final visualizar os produtos. É necessário criar apenas a resposta da api em RestFull.
 
 Documente a API utilizando alguma ferramenta integrada como o [Swagger](https://swagger.io) ou congêneres.
 
