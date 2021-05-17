@@ -10,7 +10,7 @@ Esperamos também que você se divirta e aprenda algo no processo. :blush:
 
 ## :bulb: A proposta
 
-Você deve codificar, utilizando utilizando PHP + Laravel, um CRUD de lojas, clientes e produtos, de acordo com o modelo conceitual de banco de dados abaixo (o diagrama abaixo não inclui o modelo das lojas):
+Você deve codificar, utilizando utilizando PHP + Laravel, um CRUD de clientes e produtos, de acordo com o modelo conceitual de banco de dados abaixo (o diagrama abaixo não inclui o modelo das lojas):
 
 ![Modelo Conceitual](database.png)
 
@@ -20,7 +20,7 @@ Para consumir a API, desenvolva a autenticação com Laravel Sanctum. Não é ne
 
 Documente a API utilizando alguma ferramenta integrada como o [Swagger](https://swagger.io) ou congêneres.
 
-Abstrair a camada das lojas em diferentes drivers, explorando ao máximo as ferramentas do laravel para maximizar o desacoplamento das partes.
+Abstrair a camada das lojas em diferentes drivers, explorando ao máximo as ferramentas do laravel para maximizar o desacoplamento das partes. As lojas não possuem rotas de criação, atualização, consulta e exclusão.
 
 As lojas devem receber informações de três respostas diferentes de APIs via pipeline (pipelines simulados nos arquivos .json presentes neste repositório) e, para isso, é necessário armazenar as informações das lojas externas por meio de um contrato e abstrair conforme o modelo de tabela abaixo:
 
