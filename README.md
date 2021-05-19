@@ -15,7 +15,7 @@ Você deve codificar, utilizando utilizando **PHP + Laravel 8**. (Utilize o [_La
 ![Modelo Conceitual](database.png)
 
 Para consumir a API **dos produtos dos clientes** utilize o modelo SPAs (single page applications), utilze o [_Laravel Sanctum_](https://laravel.com/docs/8.x/sanctum) do Laravel. 
-Obs: Não é necessário criar a API de visualizar o produto do cliente, mas sim a API para consultar os produtos disponíveis de todos os clientes.
+Obs.: Não é necessário criar uma rota da API para visualizar os produtos de um cliente específico, mas sim uma rota para consultar os produtos disponíveis de todos os clientes.
 
 Documente a API utilizando alguma ferramenta integrada como o [Swagger](https://swagger.io) ou congêneres.
 
