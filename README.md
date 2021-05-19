@@ -10,19 +10,19 @@ Esperamos também que você se divirta e aprenda algo no processo. :blush:
 
 ## :bulb: A proposta
 
-Você deve codificar, utilizando utilizando PHP + Laravel, um CRUD de clientes e produtos, de acordo com o modelo conceitual de banco de dados abaixo (o diagrama abaixo não inclui o modelo das lojas):
+Você deve codificar, utilizando utilizando **PHP**, **Laravel 8**, **[_Laravel Breeze_](https://laravel.com/docs/8.x/starter-kits#laravel-breeze)** e **[_Inertia.js_](https://laravel.com/docs/8.x/starter-kits#breeze-and-inertia)**, um CRUD de clientes e produtos, onde clientes são donos de produtos, e produtos pertencem a uma loja específica em um cenário de **marketplace** (as lojas não possuem rotas CRUD). Segue abaixo um modelo conceitual de banco de dados (o diagrama a seguir não inclui o modelo das lojas):
 
 ![Modelo Conceitual](database.png)
 
-Utilize o [_Laravel Breeze_](https://laravel.com/docs/8.x/starter-kits#laravel-breeze) e [_Inertia.js_](https://laravel.com/docs/8.x/starter-kits#breeze-and-inertia).
-
-Para consumir a API, desenvolva a autenticação com Laravel Sanctum. Não é necessário criar o frontend para o cliente final visualizar os produtos. É necessário criar apenas a resposta da API RESTful.
+Ao conceber a API para o CRUD dos produtos dos clientes, imagine que ela será consumida por um client do tipo SPA (Single Page Application), e utilize o [_Laravel Sanctum_](https://laravel.com/docs/8.x/sanctum) para a autenticação. 
+Obs.: Não é necessário criar uma rota da API para visualizar os produtos de um cliente específico, mas sim uma rota para consultar os produtos disponíveis de todos os clientes.
 
 Documente a API utilizando alguma ferramenta integrada como o [Swagger](https://swagger.io) ou congêneres.
 
-Abstrair a camada das lojas em diferentes drivers, explorando ao máximo as ferramentas do laravel para maximizar o desacoplamento das partes. As lojas não possuem rotas de criação, atualização, consulta e exclusão.
+--------
 
-As lojas devem receber informações de três respostas diferentes de APIs via pipeline (pipelines simulados nos arquivos .json presentes neste repositório) e, para isso, é necessário armazenar as informações das lojas externas por meio de um contrato e abstrair conforme o modelo de tabela abaixo:
+Os dados das lojas devem ser importados dos **arquivos .json contidos neste repositório**. Como requisito, é necessário desenvolver com abstrações dos dados importados.
+Imagine que você possua produtos em diferentes lojas, por exemplo, no Mercado Livre, OLX, e afins. Suponha agora que você deseja realizar uma integração para vender todos os seus produtos em um único lugar. Para isso, é necessário consultar as APIs das diferentes lojas, e importar seus dados.
 
 Coluna    | Valor  | Descrição
 --------- | ------ | ------------------
