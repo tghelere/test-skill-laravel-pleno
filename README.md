@@ -59,6 +59,6 @@ Por fim, forneça uma documentação, por meio de um arquivo "documentation.md",
 
 ## :email: Sobre a entrega
 
-Pedimos que, por gentileza, entregue o teste em até 7 dias a partir do recebimento das instruções, respondendo à **mesma conversa de email onde enviamos o link do desafio** e incluindo o link de um **repositório privado** no GitHub. Neste repositório, **adicione como colaborador o usuário [@ensiniodevback](https://github.com/ensiniodevback)** (jobs@ensinio.com).
+Pedimos que, por gentileza, entregue o teste em até 7 dias a partir do recebimento das instruções, respondendo à **mesma conversa de email onde enviamos o link do desafio** e incluindo o link de um **repositório privado** no GitHub. Neste repositório, **adicione como colaborador o usuário [@ensiniodevback](https://github.com/ensiniodevback)** (back@ensinio.com).
 
 Se por motivos de força maior não for possível cumprir com o prazo, por gentileza, nos informe respondendo à mesma conversa de email onde enviamos o link do desafio.
