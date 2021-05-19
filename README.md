@@ -10,7 +10,7 @@ Esperamos também que você se divirta e aprenda algo no processo. :blush:
 
 ## :bulb: A proposta
 
-Você deve codificar, utilizando utilizando **PHP + Laravel 8**. (Utilize o [_Laravel Breeze_](https://laravel.com/docs/8.x/starter-kits#laravel-breeze) e [_Inertia.js_](https://laravel.com/docs/8.x/starter-kits#breeze-and-inertia).), um CRUD de clientes e produtos, onde os clientes são os donos do _produto_ e os produtos irão pertencer a uma loja específica(A loja não faz parte do CRUD) em um cenário de **Marketplace**. Segue abaixo um modelo conceitual de banco de dados abaixo (o diagrama abaixo não inclui o modelo das lojas):
+Você deve codificar, utilizando utilizando **PHP**, **Laravel 8**, **[_Laravel Breeze_](https://laravel.com/docs/8.x/starter-kits#laravel-breeze)** e **[_Inertia.js_](https://laravel.com/docs/8.x/starter-kits#breeze-and-inertia)**, um CRUD de clientes e produtos, onde clientes são donos de produtos, e produtos pertencem a uma loja específica em um cenário de **marketplace** (as lojas não possuem rotas CRUD). Segue abaixo um modelo conceitual de banco de dados (o diagrama a seguir não inclui o modelo das lojas):
 
 ![Modelo Conceitual](database.png)
 
