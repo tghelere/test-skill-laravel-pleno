@@ -21,7 +21,7 @@ Documente a API utilizando alguma ferramenta integrada como o [Swagger](https://
 
 --------
 
-_As lojas devem ser importadas dos arquivos **em Json disponível neste repositório**_. Como requisito, é necessário desenvolver com abstrações dos dados importados.
+Os dados das lojas devem ser importados dos **arquivos .json contidos neste repositório**. Como requisito, é necessário desenvolver com abstrações dos dados importados.
 Imagine que você possua produtos em diferentes lojas, por exemplo, no Mercado Livre, OLX, e afins. Suponha agora que você deseja realizar uma integração para vender todos os seus produtos em um único lugar. Para isso, é necessário consultar as APIs das diferentes lojas, e importar seus dados.
 
 Coluna    | Valor  | Descrição
