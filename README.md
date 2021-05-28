@@ -2,7 +2,7 @@
 
 Este teste foi planejado para validar os conhecimentos necessários para a posição de Desenvolvedor(a) Back-end Pleno na Ensinio.
 
-Serão avaliados aspectos relacionados aos conhecimentos em boas práticas de desenvolvimento, além dos conhecimentos nas tecnologias PHP, Laravel, e no seu ecosistema.
+Serão avaliados aspectos relacionados aos conhecimentos em boas práticas de desenvolvimento, além dos conhecimentos nas tecnologias PHP, Laravel, e no seu ecossistema.
 
 É esperado que você codifique com organização e siga os padrões determinados (estamos confiantes de que você pode vencer a vontade de fazer gambiarras :stuck_out_tongue_winking_eye:), e demonstre sua atenção em detalhes, capacidade de aprender e agregar valor.
 
@@ -10,7 +10,7 @@ Esperamos também que você se divirta e aprenda algo no processo. :blush:
 
 ## :bulb: A proposta
 
-Você deve codificar, utilizando utilizando **PHP**, **Laravel 8**, **[_Laravel Breeze_](https://laravel.com/docs/8.x/starter-kits#laravel-breeze)** e **[_Inertia.js_](https://laravel.com/docs/8.x/starter-kits#breeze-and-inertia)**, um CRUD de clientes e produtos, onde clientes são donos de produtos, e produtos pertencem a uma loja específica em um cenário de **marketplace** (as lojas não possuem rotas CRUD). Segue abaixo um modelo conceitual de banco de dados (o diagrama a seguir não inclui o modelo das lojas):
+Você deve codificar, utilizando **PHP**, **Laravel 8**, **[_Laravel Breeze_](https://laravel.com/docs/8.x/starter-kits#laravel-breeze)** e **[_Inertia.js_](https://laravel.com/docs/8.x/starter-kits#breeze-and-inertia)**, um CRUD de clientes e produtos, onde clientes são donos de produtos, e produtos pertencem a uma loja específica em um cenário de **marketplace** (as lojas não possuem rotas CRUD). Segue abaixo um modelo conceitual de banco de dados (o diagrama a seguir não inclui o modelo das lojas):
 
 ![Modelo Conceitual](database.png)
 
@@ -54,11 +54,11 @@ Por fim, forneça uma documentação, por meio de um arquivo "documentation.md",
 
 - A qualidade do seu **código**;
 - O cumprimento dos **requisitos**;
-- A **estrutura** do seu projeto: esperamos ver componentização coesa, reuso, encapsulamento, separação de responsabilidades, etc;
+- A **estrutura** do seu projeto: esperamos ver componentização coesa, reúso, encapsulamento, separação de responsabilidades, etc;
 - Seu **empenho**: não tem problema se algo não sair como desejado, mas tente! :blush:
 
 ## :email: Sobre a entrega
 
 Pedimos que, por gentileza, entregue o teste em até 7 dias a partir do recebimento das instruções, respondendo à **mesma conversa de email onde enviamos o link do desafio** e incluindo o link de um **repositório privado** no GitHub. Neste repositório, **adicione como colaborador o usuário [@ensiniodevback](https://github.com/ensiniodevback)** (back@ensinio.com).
 
-Se por motivos de força maior não for possível cumprir com o prazo, por gentileza, nos informe respondendo à mesma conversa de email onde enviamos o link do desafio.
+Se por motivos de força maior não for possível cumprir com o prazo, por gentileza, nos informe respondendo à mesma conversa de e-mail onde enviamos o link do desafio.
